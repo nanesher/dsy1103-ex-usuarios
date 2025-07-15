@@ -27,6 +27,6 @@ server:
   port: 8083
 
 ventas-api-url: http://localhost:8080/ventas/
-productos-api-url: http://localhost:8081/productos/
+usuarios-api-url: http://localhost:8081/usuarios/
 pagos-api-url: http://localhost:8082/pagos/
 envios-api-url: http://localhost:8084/envios/

@@ -10,8 +10,8 @@ public class UsuariosApplication {
 	public static void main(String[] args) {
 		SpringApplication.run(UsuariosApplication.class, args);
 	}
-	@Value("${productos-api-url}")
-	private String productosApiUrl;
+	@Value("${usuarios-api-url}")
+	private String usuariosApiUrl;
 	@Value("${envios-api-url}")
 	private String enviosApiUrl;
 	@Value("${ventas-api-url}")
